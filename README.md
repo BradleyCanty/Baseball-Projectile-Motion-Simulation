@@ -1,6 +1,6 @@
 # Baseball-Projectile-Motion-Simulation
 This simulates the motion of a baseball when...
-- in a vacuum
+- subjected to vacuum
 - subjected to Newton drag
 
 Drag is simulated using a piecewise continous curve fit to baseball wind tunnel data, derived using linear-least squares regression (see 'cd_vs_re_curve_fitting_notebook.ipynb').
