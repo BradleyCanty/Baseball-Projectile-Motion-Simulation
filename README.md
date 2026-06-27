@@ -6,8 +6,14 @@ This simulates the motion of a baseball when...
 - subjected to vacuum
 - subjected to Newton drag
 
-Drag is simulated using a piecewise continous curve fit to baseball wind tunnel data, derived using linear-least squares regression (see 'cd_vs_re_curve_fitting_notebook.ipynb').
+The user inputs...
+- the Batted Ball Speed
+- the launch angle
+- the time step used in computing the numerical solution
 
+
+The variation of drag coefficient with Reynolds number is found using a piecewise continous curve fit to baseball wind tunnel data, derived using linear-least squares regression (see 'cd_vs_re_curve_fitting_notebook.ipynb').
+<img width="3600" height="2400" alt="5_Baseball_Cd_vs_Re_Data" src="https://github.com/user-attachments/assets/e552edcf-be74-4ff2-80ac-b977e3853af8" />
 
 Various numerical integration methods are used for computing the Newton drag trajectory:
 - Euler method
