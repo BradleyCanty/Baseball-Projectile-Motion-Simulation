@@ -1,4 +1,7 @@
 # Baseball-Projectile-Motion-Simulation
+<img width="3600" height="2400" alt="1_Baseball_Traj" src="https://github.com/user-attachments/assets/6eaa0f51-27d5-4c6a-9cab-ffa74e05d33b" />
+
+
 This simulates the motion of a baseball when...
 - subjected to vacuum
 - subjected to Newton drag
