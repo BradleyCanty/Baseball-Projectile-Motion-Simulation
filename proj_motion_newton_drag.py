@@ -138,7 +138,6 @@ plt.legend(loc="upper center", bbox_to_anchor=(0.5, bottom_ax_y - 1.2 + ax_y_del
 
 plt.savefig(img_dir + '/1_Baseball_Traj.png', dpi = 600)
 plt.tight_layout()
-plt.show()
 
 #Plot horizontal velocity vs time
 plt.figure()
@@ -237,5 +236,6 @@ plt.text(0.5, 0.9, textstr, transform= plt.gca().transAxes, fontsize = 12,
         verticalalignment = 'top', bbox = props)
 
 plt.savefig(img_dir + '/6_Baseball_Cd_vs_Re_in_Sim.png', dpi = 600)
+plt.show()
 
 
